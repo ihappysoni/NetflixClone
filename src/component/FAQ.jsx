@@ -39,7 +39,7 @@ const FAQ = () => {
           <button id="gs">
             Get Started{" "}
             <span id="rightArrow">
-              <Link to="/">></Link>
+              <Link to="/">+</Link>
             </span>
           </button>
         </div>
