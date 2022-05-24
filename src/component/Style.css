@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    
+}
+.fPage{
+    width: 100%;
+    height: 48vw;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 1000px 100px rgb(0, 0, 0);
+    background-size: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/8e07a611-4ced-4d4e-81e6-d278862c952b/IN-en-20220502-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+*{
+    margin: 0px;
+}
+
+.nav{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    padding-top: 1vw;
+    align-items: center;
+}
+.dropLang{
+    align-items: center;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 6vw;
+    height: 2vw;
+    margin: 1vw;
+    background-color: black;
+}
+#lang{
+    color: white;
+    background-color: black;
+}
+.dropBox{
+    display: flex;
+    align-items: center;
+}
+#lang{
+    border: none;
+}
+.sign-in{
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-radius: .3vw;
+    box-shadow: 0px 0px 5px black;
+}
+#getStarted{
+    color: white;
+    margin: 8vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    font-size: 1.8vw;
+    z-index: 2;
+    text-shadow: 0px 0px 10px black;
+}
+h1,h3,p{
+    margin: 2vw;
+}
+#inp{
+    width: 35vw;
+    height: 4vw;
+    padding: .2vw;
+    font-size: 1.2vw;
+}
+#gs{
+    color: white;
+    height: 4.7vw;
+    width: 15vw;
+    font-size: 1.3vw;
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 1.2vw;
+}
+.ani{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    margin: 0px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half{
+    width: 40vw;
+}
+.hr{
+    filter: drop-shadow(10px);
+    border: none;
+    height: .6vw;
+    background-color: rgb(83, 83, 83);
+}
+.faq{
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#rightArrow{
+    margin-left: 3vw;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24vw;
+    margin-right: 25vw;
+}
+.que{
+    margin-top: 1vw;
+    display: flex;
+    width: 50vw;
+    height: 5vw;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2vw;
+    background-color: rgb(48, 48, 48);
+    box-shadow: inset 0px 0px 100px rgb(37, 37, 37);
+}
+.icon4{
+    font-size: 2vw;
+}
+.agn{
+    margin: 4vw;
+}
+#footBg{
+    background-color: black;
+    filter: opacity(90%);
+    margin-top: 10vw;
+}
+.footer{
+    padding: 5vw;
+    width: 60vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: left;
+}
+.grids{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    font-size: .9vw;
+}
+.links{
+    margin: .8vw;
+}
+.full{
+    box-shadow: inset 0px 0px 1000px 100px rgb(0, 0, 0);
+    text-align: center;
+    background-size: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/8e07a611-4ced-4d4e-81e6-d278862c952b/IN-en-20220502-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.logoLogin{
+    display: flex;
+    justify-content: left;
+    padding: 2vw;
+}
+.loginCred{
+    display: flex;
+    flex-direction: column;
+    line-height: 5vw;
+    justify-content: center;
+    background-color: black;
+    filter: opacity(90%);
+    width: 30vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+#emailtel{
+    width: 25vw;
+    height: 3vw;
+}
+#password{
+    width: 25vw;
+    height: 3vw;
+}
+.signin{
+    color: white;
+    border: none;
+    font-size: 1.3vw;
+    background-color: #e50914;
+    width: 25vw;
+    height: 3vw;
+}
+#down{
+    margin: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+#togglePassword{
+    color: rgb(103, 102, 102);
+    position: relative;
+    bottom: 45px;
+    left: 175px;
+}

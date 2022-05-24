@@ -1,3 +1,7 @@
+@import url(./component/Style.css);
+*{
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
 .App {
   text-align: center;
 }
